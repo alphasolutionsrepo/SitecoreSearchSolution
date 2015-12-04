@@ -11,7 +11,12 @@ namespace SSS.Examples.SearchPipeline.PrepareQueryPipeline
 {
     /// <summary>
     /// Title: PrepareQueryPipeline processor for adding "Security Filter" on all queries
+    /// Author: Roland Villemoes / Alpha Solutions
     /// Version: SSS 3.1 / Sitecore 8.1 rev151003
+    /// Dependencies: 
+    /// - SitecoreSearchSolution.Web.dll
+    /// - AlphaSolutions.Inveniens.Framework.dll
+    /// - Sitecore.Kernel.dll
     /// 
     /// Prerequisite: Assuming that documents in Solr has a field "securitygroup_string_mv" - a multivalue string field.
     /// This field holds the names of all security groups set in that item when it was pushed from Sitecore (or another source)
